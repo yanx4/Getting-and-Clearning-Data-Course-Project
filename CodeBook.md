@@ -35,7 +35,7 @@ assigned to provide descriptive column names.
 <table>
   <tbody> 
     <tr>
-1	     tBodyAcc-mean()-X
+<tb>1</tb>   <tb>tBodyAcc-mean()-X</tb></tr>
 2	     tBodyAcc-mean()-Y
 3            tBodyAcc-mean()-Z
 4             tBodyAcc-std()-X
