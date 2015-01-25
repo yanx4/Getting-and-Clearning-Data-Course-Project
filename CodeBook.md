@@ -33,11 +33,10 @@ colnames: selected features/columnnames by the indices "sel" was saved in list "
 assigned to provide descriptive column names.
 
 <table>
-  <tbody>
-  
-                     colnames
-1            tBodyAcc-mean()-X
-2            tBodyAcc-mean()-Y
+  <tbody> 
+    <tr>
+1	     tBodyAcc-mean()-X
+2	     tBodyAcc-mean()-Y
 3            tBodyAcc-mean()-Z
 4             tBodyAcc-std()-X
 5             tBodyAcc-std()-Y
@@ -102,6 +101,7 @@ assigned to provide descriptive column names.
 64      fBodyBodyGyroMag-std()
 65 fBodyBodyGyroJerkMag-mean()
 66  fBodyBodyGyroJerkMag-std()
+   </tr>
  </tbody>
 </table>
 
@@ -112,12 +112,18 @@ all: column-combined the data sets "subjects", "activityno", "meansd" as the fin
 Activitylabel : read from the "activity_label.txt". It contains two columns,6 observations.
 The first column is activity number which is named as "activityno", the second one is activity label(which will be renamed as "activity").
 
+<table>
+  <tbody> 
+    <tr>
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
 4 SITTING
 5 STANDING
 6 LAYING
+   </tr>
+ </tbody>
+</table>
 
 all.label: In step3, by merging the"all" dataset with "activitylabel" dataset by common variable "activityno", descriptive activity names were assigned to the data.  
 
