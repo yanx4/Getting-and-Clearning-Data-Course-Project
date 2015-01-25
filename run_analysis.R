@@ -1,20 +1,21 @@
 
 library(reshape)
 
-#read in features.txt
+#0.read in all the original files
+##read in features.txt
 features<-read.table("features.txt",stringsAsFactors=FALSE)
 
-#read in train dataset,"tr" stands for training
+##read in train dataset,"tr" stands for training
 subject.tr<-read.table("train/subject_train.txt",sep="\t")
 tr_y<-read.table("train/y_train.txt",sep="\t")
 tr_x<-read.table("train/X_train.txt",sep="")
 
-#read in test dataset,"te" stands for test
+##read in test dataset,"te" stands for test
 subject.te<-read.table("test/subject_test.txt",sep="\t")
 te_y<-read.table("test/y_test.txt",sep="\t")
 te_x<-read.table("test/X_test.txt",sep="")
 
-##1.Merge training and test sets to create one dataset.
+#1.Merge training and test sets to create one dataset.
 #merge 561 varaibles of training and test sets
 variables<-rbind(tr_x,te_x)
 #all subjects
