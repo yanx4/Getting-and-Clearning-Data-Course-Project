@@ -16,7 +16,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The R code :run_analysis.R has been written to realize the 5 steps in the course projects :
 0.      Read in all the original files by read.table().
 
-1.	Merges the training and the test sets to create one data set with 561 varialbes of measurements.use rbind() and cbind() later.
+1.	Merges the training and the test sets to create one data set with 561 varialbes of measurements.use rbind() to combine training and test data sets and use cbind() to combine "subjects","activity","variables" later.
        
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. use grep() to search patterns "mean()" or "std()".Save the resulting indicies to list "sel". Select columns of variables and corresponding feature names.
 
