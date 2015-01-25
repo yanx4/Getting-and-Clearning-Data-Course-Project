@@ -32,7 +32,8 @@ meansd: selected the wanted columns from dataset "variables" by the indices in"s
 colnames: selected features/columnnames by the indices "sel" was saved in list "colnames" and later will be 
 assigned to provide descriptive column names.
 
-The "columnnames" list as below,
+####The "columnnames" list as below,
+
 tBodyAcc-mean()-X ;
 tBodyAcc-mean()-Y ;
 tBodyAcc-mean()-Z ;
