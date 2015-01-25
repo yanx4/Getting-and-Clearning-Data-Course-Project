@@ -100,7 +100,7 @@ assigned to provide descriptive column names.
 64      fBodyBodyGyroMag-std()
 65 fBodyBodyGyroJerkMag-mean()
 66  fBodyBodyGyroJerkMag-std()
-   </tr>
+   
  </tbody>
 </table>
 
