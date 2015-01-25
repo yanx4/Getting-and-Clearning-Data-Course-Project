@@ -101,7 +101,7 @@ fBodyBodyGyroJerkMag-mean() ;
 fBodyBodyGyroJerkMag-std() ;
 
 
-###step3: merge activity labels to the "All" data.
+###step3: merge activity labels to the "all" data.
 
 all: column-combined the data sets "subjects", "activityno", "meansd" as the final combined dataset.
 
@@ -140,7 +140,7 @@ The first column is activity number which is named as "activityno", the second o
  </tbody>
 </table>
 
-all.label: In step3, by merging the"all" dataset with "activitylabel" dataset by common variable "activityno", descriptive activity names were assigned to the data.  
+all.label: In step3, by merging the "all" dataset with "activitylabel" dataset by common variable "activityno", descriptive activity names were assigned to the data.  
 
 ###step4: assign the descriptive feature names in above list "colnames" to the selected 66 columns in all.lable by indicies.
 
