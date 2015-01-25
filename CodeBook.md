@@ -114,14 +114,14 @@ The first column is activity number which is named as "activityno", the second o
 
 <table>
   <tbody> 
-	<tr>
-<td>1 WALKING</td>
-<td>2 WALKING_UPSTAIRS</td>
-<td>3 WALKING_DOWNSTAIRS</td>
-<td>4 SITTING</td>
-<td>5 STANDING</td>
-<td>6 LAYING</td>
-   </tr>
+	
+<tr>1 WALKING</tr>
+<tr>2 WALKING_UPSTAIRS</tr>
+<tr>3 WALKING_DOWNSTAIRS</tr>
+<tr>4 SITTING</tr>
+<tr>5 STANDING</tr>
+<tr>6 LAYING</tr>
+ 
  </tbody>
 </table>
 
