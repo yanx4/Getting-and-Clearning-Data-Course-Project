@@ -4,9 +4,11 @@
 Getting and Cleaning Data Course Project
 
 ================================================
-#Original Data full description is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+#Original Data full description is available at 
+##http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Data for the project is downloadable at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Data for the project is downloadable at 
+##https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
  
 #Work Performance :
@@ -21,4 +23,4 @@ The R code :run_analysis.R has been written to realize the 5 steps in the course
 
 #Output Files:
 1.	The "CodeBook.md" describes all the variables, datasets, and any merge/subset/rename/reshape steps performed to clean up the data.
-2.	The final tidy dataset is exported as "tidy_data.txt". It includes "subjectid", "activity", and the selected 66 variables selected from the original dataset.
+2.	The final tidy dataset is exported as "tidy_data.txt". It includes "subjectid", "activity", and 180 observations of the mean of the selected 66 variables from the original dataset with partial name pattern "mean()" or "std()".
