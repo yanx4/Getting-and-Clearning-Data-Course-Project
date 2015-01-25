@@ -34,11 +34,11 @@ assigned to provide descriptive column names.
 
 <table>
   <tbody> 
-    <tb>tBodyAcc-mean()-X</tb>
-    <tb>tBodyAcc-mean()-Y</tb>
-3            tBodyAcc-mean()-Z
-4             tBodyAcc-std()-X
-5             tBodyAcc-std()-Y
+  <tr><tb>tBodyAcc-mean()-X</tb> </tr>
+  <tr><tb>tBodyAcc-mean()-Y</tb> </tr>
+<tr><tb>tBodyAcc-mean()-Z</tb> </tr>
+<tr><tb>tBodyAcc-std()-X</tb> </tr>
+<tr><tb>tBodyAcc-std()-Y</tb> </tr>
 6             tBodyAcc-std()-Z
 7         tGravityAcc-mean()-X
 8         tGravityAcc-mean()-Y
