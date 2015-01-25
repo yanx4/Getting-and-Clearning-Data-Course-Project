@@ -2,17 +2,17 @@
 library(reshape)
 
 #read in features.txt
-features<-read.table("/Downloads/P3/features.txt",stringsAsFactors=FALSE)
+features<-read.table("features.txt",stringsAsFactors=FALSE)
 
 #read in train dataset,"tr" stands for training
-subject.tr<-read.table("/Downloads/P3/train/subject_train.txt",sep="\t")
-tr_y<-read.table("/Downloads/P3/train/y_train.txt",sep="\t")
-tr_x<-read.table("/Downloads/P3/train/X_train.txt",sep="")
+subject.tr<-read.table("train/subject_train.txt",sep="\t")
+tr_y<-read.table("train/y_train.txt",sep="\t")
+tr_x<-read.table("train/X_train.txt",sep="")
 
 #read in test dataset,"te" stands for test
-subject.te<-read.table("/Downloads/P3/test/subject_test.txt",sep="\t")
-te_y<-read.table("/Downloads/P3/test/y_test.txt",sep="\t")
-te_x<-read.table("/Downloads/P3/test/X_test.txt",sep="")
+subject.te<-read.table("test/subject_test.txt",sep="\t")
+te_y<-read.table("test/y_test.txt",sep="\t")
+te_x<-read.table("test/X_test.txt",sep="")
 
 ##1.Merge training and test sets to create one dataset.
 #merge 561 varaibles of training and test sets
@@ -40,7 +40,7 @@ activityno<-rename(activityno,c(V1="activityno"))
 subjects<-rename(subjects,c(V1="subjectid"))
 all<-cbind(subjects,activityno,meansd)
 
-activitylabel<-read.table("/Downloads/P3/activity_labels.txt")
+activitylabel<-read.table("activity_labels.txt")
 activitylabel<-rename(activitylabel,c(V1="activityno",V2="activity"))
 all.label<-merge(all,activitylabel,by="activityno")
 all.label<-all.label[,-1] #drop "activityno"
