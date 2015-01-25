@@ -11,7 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
  
-#Work Performance :
+#Performed Work :
 
 The R code :run_analysis.R has been written to realize the 5 steps in the course projects :
 
