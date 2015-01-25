@@ -14,12 +14,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 #Performed Work :
 
 The R code :run_analysis.R has been written to realize the 5 steps in the course projects :
+0.      Read in all the original files by read.table().
 
-1.	Merges the training and the test sets to create one data set.
-2.	Extracts only the measurements on the mean and standard deviation for each measurement.
-3.	Uses descriptive activity names to name the activities in the data set.
-4.	Appropriately labels the data set with descriptive variable.
-5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1.	Merges the training and the test sets to create one data set with 561 varialbes of measurements.use rbind() and cbind() later.
+       
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. use grep() to search patterns "mean()" or "std()".Save the resulting indicies to list "sel". Select columns of variables and corresponding feature names.
+
+3.	Uses descriptive activity names to name the activities in the data. Merge the activitylabel data set to the previously dataset by common varible activity number with merge(). 
+
+4.	Appropriately labels the data set with descriptive variable. Renames the the 66 selected columns with the "colnames" list by rename().
+
+5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Reshape the dataset by group subject id and activity with melt(). Use dcast() to calculate the corresponding mean. The genreated tidy data was written out to "tidy_data.txt" by write.table().
 
 #Output Files:
 1.	The "CodeBook.md" describes all the variables, datasets, and any merge/subset/rename/reshape steps performed to clean up the data.
