@@ -23,4 +23,4 @@ The R code :run_analysis.R has been written to realize the 5 steps in the course
 
 #Output Files:
 1.	The "CodeBook.md" describes all the variables, datasets, and any merge/subset/rename/reshape steps performed to clean up the data.
-2.	The final tidy dataset is exported as "tidy_data.txt". It includes "subjectid", "activity", and 180 observations of the mean of the selected 66 variables from the original dataset with partial name pattern "mean()" or "std()".
+2.	The final tidy dataset is exported as "tidy_data.txt". It includes "subjectid", "activity", and 180 observations of the means of the selected 66 variables from the original dataset with partial name pattern "mean()" or "std()".
