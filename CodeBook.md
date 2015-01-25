@@ -1,8 +1,8 @@
-                                                  #Data Dictionary
+#Data Dictionary
 
-##Data Sets
+##Data Set names
 
-###Step0: read in dataset from raw
+###step0: read in dataset from raw
 
 features : dataset read in  the 561 selected features from "features.txt".
 
@@ -30,7 +30,11 @@ sel: 66 indices combined and sorted from the above selmean and selstd.
 
 meansd: selected the wanted columns from dataset "variables" by the indices in"sel".
 colnames: selected features/columnnames by the indices "sel" was saved in list "colnames" and later will be 
-assigned to provide descriptive column names
+assigned to provide descriptive column names.
+
+<table>
+  <tbody>
+  
                      colnames
 1            tBodyAcc-mean()-X
 2            tBodyAcc-mean()-Y
@@ -98,6 +102,8 @@ assigned to provide descriptive column names
 64      fBodyBodyGyroMag-std()
 65 fBodyBodyGyroJerkMag-mean()
 66  fBodyBodyGyroJerkMag-std()
+ </tbody>
+</table>
 
 ###step3: merge activity labels to the "All" data.
 
