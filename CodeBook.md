@@ -115,12 +115,31 @@ The first column is activity number which is named as "activityno", the second o
 <table>
   <tbody> 
 	
-<tr>1 WALKING</tr>
-<tr>2 WALKING_UPSTAIRS</tr>
-<tr>3 WALKING_DOWNSTAIRS</tr>
-<tr>4 SITTING</tr>
-<tr>5 STANDING</tr>
-<tr>6 LAYING</tr>
+<tr>
+<td>1</td> 
+<td>WALKING</td>
+</tr>
+<tr>
+<td>2</td>
+<td>WALKING_UPSTAIRS</td>
+</tr>
+<tr>
+<td>3</td>
+<td>WALKING_DOWNSTAIRS
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SITTING</td>
+</tr>
+<tr>
+<td>5</td>
+<td>STANDING</td>
+</tr>
+<tr>
+<td>6</td>
+<td>LAYING</td>
+</tr>
  
  </tbody>
 </table>
